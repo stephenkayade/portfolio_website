@@ -367,7 +367,7 @@ img {
 #about-a .about-info {
   display: grid;
   grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
-  grid-gap: 1.2rem; }
+  grid-gap: 2rem; }
 
 #about-a .bio-image {
   grid-area: bioimage; }
@@ -375,7 +375,7 @@ img {
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #00b2ee;
-  padding: 0.8rem; }
+  padding: 2rem 0.8rem; }
 
 #about-a .award-1 {
   grid-area: aw1; }
@@ -475,6 +475,9 @@ img {
     justify-content: space-between;
     height: 5rem;
     align-items: center; }
+    #main-footer .footer-content .social a {
+      color: #fff;
+      text-decoration: none; }
     #main-footer .footer-content .social .fab {
       margin-right: 1rem;
       border: 2px solid #fff;
@@ -520,6 +523,12 @@ img {
     #home-a .specials div:last-child {
       border: none;
       padding-bottom: 0; }
+  #home-a h2 {
+    font-size: 20px; }
+  #home-a p {
+    font-size: 14px; }
+  #home-a .concepting h3 {
+    font-size: 18px; }
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {

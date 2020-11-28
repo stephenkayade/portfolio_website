@@ -254,7 +254,7 @@ img {
       grid-template-areas:
         'bioimage bio bio'
         'aw1 aw2 aw3';
-      grid-gap: 1.2rem;
+      grid-gap: 2rem;
     }
 
     // grid area
@@ -264,9 +264,11 @@ img {
     }
 
     .bio {
+      
       grid-area: bio;
       border-left: 3px solid $main-color;
-      padding: 0.8rem;
+      padding: 2rem 0.8rem;
+
     }
 
     .award-1 {
@@ -444,7 +446,10 @@ img {
     height: 5rem;
     align-items: center;
 
-
+    .social a {
+      color: #fff;
+      text-decoration: none;
+    }
     .social .fab {
       margin-right: 1rem;
       border: 2px solid #fff;
@@ -464,8 +469,15 @@ img {
   }
 }
 
+
+
+
+
 // import media queries
 @import 'media';
+
+
+
 
 
 
