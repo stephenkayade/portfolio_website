@@ -97,7 +97,7 @@ img {
 
   // Header home
   &-home {
-    background: $bg-image no-repeat center right / cover;
+    background: linear-gradient(106.54deg, rgba(0,0,0,0.7)0.51%, rgba(0,0,0,0.8)100%), $bg-image no-repeat center 0px / cover;
     height: 100vh;
     color: #fff;
 

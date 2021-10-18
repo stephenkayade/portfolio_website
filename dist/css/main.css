@@ -268,7 +268,7 @@ img {
       border-color: #00b2ee; }
 
 #header-home {
-  background: url("../img/my.jpg") no-repeat center right/cover;
+  background: linear-gradient(106.54deg, rgba(0, 0, 0, 0.7) 0.51%, rgba(0, 0, 0, 0.8) 100%), linear-gradient(106.54deg, rgba(0, 0, 0, 0.2) 0.51%, rgba(0, 0, 0, 0.5) 100%), url("../img/insta-1.jpg") no-repeat center 0px/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -279,7 +279,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/my.jpg") no-repeat 20% 30%/cover;
+  background: linear-gradient(106.54deg, rgba(0, 0, 0, 0.2) 0.51%, rgba(0, 0, 0, 0.5) 100%), url("../img/insta-1.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #00b2ee; }
 
